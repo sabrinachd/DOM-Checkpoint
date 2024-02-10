@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>panier d'achat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Panier d'achats</h1>
+    <div class="container">
+      <div class="ctn">
+        <!-------------------- ARTICLE 01---------------------->
+        <div class="item">
+          <div><img src="img/pull.png" width="200px" /></div>
+          <div>
+            <h3>Ceci est un tres beau Pull</h3>
+          </div>
+          <div class="counter">
+            <button class="btn plus">+</button>
+            <p class="number-item">1</p>
+            <button class="btn minus">-</button>
+          </div>
+          <div class="prix">
+            <span class="price">4000 </span> <span> DA </span>
+          </div>
+          <div>
+            <img src="img/heart.png" alt="heart" width="20px" class="heart" />
+            <img
+              src="img/delete.png"
+              alt="delete"
+              width="20px"
+              class="delete"
+            />
+          </div>
+        </div>
+        <!-------------------- ARTICLE 02---------------------->
+        <div class="item">
+          <div><img src="img/pontalon.jpg" width="200px" /></div>
+          <div>
+            <h3>Ceci est un tres beau Pontalon</h3>
+          </div>
+          <div class="counter">
+            <button class="btn plus">+</button>
+            <p class="number-item">1</p>
+            <button class="btn minus">-</button>
+          </div>
+          <div class="prix">
+            <span class="price">5000 </span> <span> DA </span>
+          </div>
+          <div>
+            <img src="img/heart.png" alt="heart" width="20px" class="heart" />
+            <img
+              src="img/delete.png"
+              alt="delete"
+              width="20px"
+              class="delete"
+            />
+          </div>
+        </div>
+        <!-------------------- ARTICLE 03---------------------->
+        <div class="item">
+          <div>
+            <img src="img/chaussure.jpg" width="200px" height="250px" />
+          </div>
+          <div>
+            <h3>Ceci est une belle paire de chaussure</h3>
+          </div>
+          <div class="counter">
+            <button class="btn plus">+</button>
+            <p class="number-item">1</p>
+            <button class="btn minus">-</button>
+          </div>
+          <div class="prix">
+            <span class="price">4000 </span> <span> DA </span>
+          </div>
+          <div>
+            <img src="img/heart.png" alt="heart" width="20px" class="heart" />
+            <img
+              src="img/delete.png"
+              alt="delete"
+              width="20px"
+              class="delete"
+            />
+          </div>
+        </div>
+        <!-------------------- RESULTAT ---------------------->
+        <div class="result">
+          <p style="font-weight: 900">Total: <span id="res"></span></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

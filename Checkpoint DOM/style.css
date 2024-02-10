@@ -1,0 +1,72 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 200;
+  color: rgb(205, 167, 120);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+.container {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(221, 209, 201);
+  width: 900px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.item img {
+  margin: 30px;
+}
+.ctn {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+h3 {
+  padding-top: 135px;
+}
+.prix {
+  padding-top: 140px;
+  font-weight: 900;
+}
+
+.result {
+  background-color: rgb(245, 228, 201);
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.heart {
+  cursor: pointer;
+  margin-right: 10px;
+}
+.delete {
+  cursor: pointer;
+}
+.counter {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.btn {
+  background-color: rgba(238, 198, 166, 0.788);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
